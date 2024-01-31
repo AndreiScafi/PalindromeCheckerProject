@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Palindrome Checker Project</title>
 </head>
 
 <body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header-text">Is it a Palindrome</h1>
+        </div>
+        <div class="inputfield">
+            <p class="inputfield-text">Enter in text to check for a palindrome:</p>
+            <div class="input-button">
+                <input type="text" class="text-input" id="text-input">
+                <button id="check-btn" class="check-btn">Check</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+        <div class="instructions">
+            <div class="icon"> <i class="fa-solid fa-lightbulb"></i></div>
+            <h3 class="instructions-text">A palindrome is a word or sentence that's spelled the same way both forward
+                and backward, ignoring punctuation, case, and spacing.</h3>
+        </div>
+
+    </div>
     <script src="./script.js"></script>
 </body>
 
