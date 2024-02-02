@@ -1,3 +1,8 @@
+// Variables
+const textInput = document.getElementById('text-input').value;
+const checkBtn = document.getElementById('check-btn');
+// End of Variables
+
 // Palindrome Checker Funciton
 
 function Palindrome(str) {
@@ -12,3 +17,4 @@ function Palindrome(str) {
 }
 
 // End of Palindrome Checker Funciton
+
